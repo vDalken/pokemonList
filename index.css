@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: monospace;
+}
+
+section {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+header {
+  width: 100%;
+  text-align: center;
+}
+header select {
+  cursor: pointer;
+  width: 36%;
+  border-radius: 0;
+  padding: 0.2rem;
+}
+
+option:hover {
+  cursor: pointer;
+}
+
+.content {
+  padding: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid #000;
+  border-radius: 0.4rem;
+  gap: 1rem;
+}
+
+.pokemon-values {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 1.5rem;
+}
+.pokemon-values .pokemon-stats {
+  text-align: right;
+}
+
+.pokemon-abilities {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.pokemon-abilities p {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.pokemon-abilities p span {
+  font-weight: bold;
+}
+
+.pokemon-stats-value {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+.pokemon-stats-value span {
+  font-weight: bold;
+}
+
+.pokemon {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem;
+  border: 2px solid #000;
+  border-radius: 0.4rem;
+  background-color: rgba(255, 255, 255, 0.65);
+}
+.pokemon h2 {
+  text-align: center;
+}
+
+.pokemon-img-container {
+  width: 12rem;
+  height: 12rem;
+  display: flex;
+  justify-content: center;
+}
+.pokemon-img-container img {
+  width: 100%;
+}
+
+.pikachu {
+  background: linear-gradient(to bottom right, #fdbb2d 0%, #ff0 100%);
+}
+
+.charizard {
+  background: linear-gradient(110deg, red 0%, #fff 100%);
+}
+
+.blastoise {
+  background: linear-gradient(120deg, #1cb5e0 0%, #000851 100%);
+}
+
+.flareon {
+  background: linear-gradient(0deg, #c71800 10%, #fcc245 100%);
+}
+
+.bulbasaur {
+  background: linear-gradient(20deg, #191919 0%, #100b32 33%, #5c0249 100%);
+}
+
+.gengar {
+  background: linear-gradient(20deg, #191919 0%, #100b32 33%, #5c0249 100%);
+}
+
+.alakazam {
+  background: linear-gradient(140deg, #ffa7f9 0%, #ff2cc3 39%, #ffe3a7 100%);
+}
+
+/*# sourceMappingURL=index.css.map */

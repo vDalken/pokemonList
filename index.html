@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Pokemon List</title>
+        <link rel="stylesheet" href="index.css" />
+    </head>
+    <body>
+        <main>
+            <section>
+                <header>
+                    <p>pokemon list</p>
+                    <select name="pokemons" id="pokemons">
+                        <option selected value="pikachu">Pikachu</option>
+                        <option value="charizard">Charizard</option>
+                        <option value="blastoise">Blastoise</option>
+                        <option value="flareon">Flareon</option>
+                        <option value="bulbasaur">Bulbasaur</option>
+                        <option value="gengar">Gengar</option>
+                        <option value="alakazam">Alakazam</option>
+                    </select>
+                </header>
+                <div class="content" id="content">
+                    <div class="pokemon-img-container">
+                        <img src="" alt="pokemon-img" id="pokemon-img" />
+                    </div>
+                    <div class="pokemon">
+                        <h2 id="pokemon-name"></h2>
+                        <div class="pokemon-values">
+                            <div class="pokemon-stats">
+                                <h1 id="pokemon-name"></h1>
+                                <p>HP:</p>
+                                <p>ATTACK:</p>
+                                <p>DEFENSE:</p>
+                                <p>SPECIAL ATTACK:</p>
+                                <p>SPECIAL DEFENSE:</p>
+                                <p>SPEED:</p>
+                                <p>HEIGHT:</p>
+                                <p>WEIGHT:</p>
+                            </div>
+                            <div class="pokemon-stats-value">
+                                <span id="hp"></span>
+                                <span id="attack"></span>
+                                <span id="defense"></span>
+                                <span id="special-attack"></span>
+                                <span id="special-defense"></span>
+                                <span id="speed"></span>
+                                <span id="height"></span>
+                                <span id="weight"></span>
+                            </div>
+                        </div>
+                        <div class="pokemon-abilities">
+                            <p>ABILITY: <span id="ability"></span></p>
+                            <p>
+                                HIDDEN ABILITY:
+                                <span id="hidden-ability"></span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <script src="script.js"></script>
+    </body>
+</html>
