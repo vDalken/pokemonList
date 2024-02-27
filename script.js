@@ -35,7 +35,7 @@ function loadPokemonData(selectedPokemon) {
         pokemonSpecialAttack.innerText = data.stats[3].base_stat;
         pokemonSpecialDefense.innerText = data.stats[4].base_stat;
         pokemonSpeed.innerText = data.stats[5].base_stat + `m/s`;
-        pokemonHeight.innerText = data.height + ` feets`;
+        pokemonHeight.innerText = data.height + ` feet`;
         pokemonWeight.innerText = data.weight + ` pounds`;
         pokemonAbility.innerText = capitalizeFirstLetter(data.abilities[0].ability.name);
         pokemonHiddenAbility.innerText = capitalizeFirstLetter(data.abilities[1].ability.name);
