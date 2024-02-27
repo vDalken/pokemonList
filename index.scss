@@ -80,8 +80,7 @@ option:hover {
     justify-content: space-around;
     width: 100%;
     p {
-        display: flex;
-        flex-direction: column;
+        @include center-content(center, center, column);
         text-align: center;
         span {
             font-weight: bold;
