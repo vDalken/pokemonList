@@ -15,6 +15,10 @@ $background-color: rgba(255, 255, 255, 0.65);
     border-radius: $border-radius;
 }
 
+.border-style {
+    @include border-radius-and-border($primary-color, 2px, 0.4rem);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -58,7 +62,7 @@ option:hover {
 .content {
     padding: 4rem;
     @include center-content(center, center, column);
-    @include border-radius-and-border($primary-color, 2px, 0.4rem);
+    @extend .border-style;
     gap: 1rem;
 }
 
@@ -97,7 +101,7 @@ option:hover {
 .pokemon {
     width: 100%;
     @include center-content(center, center, column);
-    @include border-radius-and-border($border-color, 2px, 0.4rem);
+    @extend .border-style;
     padding: 2rem;
     background-color: $background-color;
     h2 {
